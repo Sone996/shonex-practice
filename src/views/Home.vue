@@ -9,6 +9,8 @@
         <box-three></box-three>
         <box-four></box-four>
         <box-five></box-five>
+        <box-six></box-six>
+        <box-seven></box-seven>
     </div>
     <!-- modals -->
     <div v-if="showModal" class="fixed top-0 left-0 modal-overlay h-screen w-screen flex" style="z-index: 30">
@@ -31,6 +33,8 @@ import imagesRow from '../components/homeComponents/imagesRow';
 import boxThree from '../components/homeComponents/boxThree';
 import boxFour from '../components/homeComponents/boxFour';
 import boxFive from '../components/homeComponents/boxFive';
+import boxSix from '../components/homeComponents/boxSix.vue';
+import boxSeven from '../components/homeComponents/boxSeven';
 
 // modals
 import imageSlider from "../components/homeComponents/Modals/ImageSliderModal";
@@ -45,7 +49,9 @@ export default {
         imageSlider,
         boxThree,
         boxFour,
-        boxFive
+        boxFive,
+        boxSix,
+        boxSeven,
     },
     data() {
         return {};

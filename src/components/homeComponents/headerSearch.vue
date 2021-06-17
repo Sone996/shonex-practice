@@ -1,9 +1,9 @@
 <template>
-  <div class="header-search flex flex-col md:flex-row border border-white py-4 justify-center md:justify-around">
+  <div class="header-search flex flex-col md:flex-row border-b border-white py-4 items-center justify-center md:justify-around">
         <div class="">
-            <input type="text" />
+            <input class="bg-opacity-0 bg-black border border-white p-2 text-white mb-4" placeholder="Search" type="text" />
         </div>
-        <div class="text-white" @click="toggleNavigation(!navState)">menu</div>
+        <div class="text-white" @click="toggleNavigation(!navState)"><i class="fa fa-bars text-2xl" aria-hidden="true"></i></div>
   </div>
 </template>
 
